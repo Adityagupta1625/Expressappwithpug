@@ -1,0 +1,20 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Dance Academy 
+    block style
+    block scripts
+      script(src='/jquery.js')
+  body
+    nav#navbar 
+        ul
+           
+            li #[a(href="/") Home] 
+            li #[a(href="/#mission") Our Mission]
+            li #[a(href="/#sponsorsSection") Our Sponsor]
+            li #[a(href="/contact") Contact Us] 
+
+    block content
+    footer#footer 
+        | Copyright ©  2021 Aditya Gupta All Rights Reserved
