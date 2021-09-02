@@ -4,8 +4,8 @@
   "description": "this is my first project in express",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "views/index.pug" 
+    
+    "start": "app.js" 
   },
   "author": "aditya gupta",
   "license": "ISC",
